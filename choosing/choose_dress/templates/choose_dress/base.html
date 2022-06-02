@@ -7,10 +7,27 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href='{% static "choose_dress/style.css" %}'>
+    <script src="https://kit.fontawesome.com/61827ff5d7.js" crossorigin="anonymous"></script>
     <title>{% block title %} Choose a dress
-    {% endblock %}</title>
+        {% endblock %}</title>
 </head>
 <body>
-    {% block content %}{% endblock %}
+<header>
+    <a href="https://github.com/TekaLishoo" class="link-to-github">GitHub: TekaLishoo</a>
+    <div class="how-work">
+        <nav>How does it work? <i class="fa-solid fa-angles-down"></i>
+            <div class="dropdown-content">
+                <a href="#">With ML</a>
+                <a href="#">With PCA and ML</a>
+                <a href="#">With TensorFlow</a>
+            </div>
+        </nav>
+    </div>
+</header>
+{% block content %}
+{% endblock %}
+<footer>
+    ©2022 by TekaLishoo
+</footer>
 </body>
 </html>

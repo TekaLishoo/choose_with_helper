@@ -1,4 +1,146 @@
 body {
     height: 100%;
-    background: linear-gradient(darkolivegreen, olivedrab) fixed;
+    background-color: #202a32;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    width: 70%;
+    background-image: linear-gradient(180deg, #3d6e45, #4e955b);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.link-to-github {
+    color: #1c242a;
+    text-decoration: none;
+    font: bold 24px/1.5 sans-serif;
+}
+
+
+a:hover {
+    color: #3e5609;
+    text-decoration: underline;
+}
+
+
+nav {
+    color: #1c242a;
+    text-decoration: none;
+    font: bold 24px/1.5 sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(180deg, #3d6e45, #4e955b);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #1c242a;
+    font: bold 20px/1.5 sans-serif;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: #3e5609;
+    text-decoration: underline;
+}
+
+nav:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+nav:hover {
+    color: #3e5609;
+}
+
+i {
+    font-size: 16px;
+}
+
+footer {
+    width: 70%;
+    background-image: linear-gradient(180deg, #3d6e45, #4e955b);
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px auto;
+    height: 16px;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.dress-city, .algoritm {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.main-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.buttons-like-not{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-not {
+    color: red;
+    width: 30%;
+}
+
+.btn-like {
+    color: red;
+    width: 30%;
+}
+
+.fa-xmark, .fa-heart {
+    font-size: 28px;
+}
+
+button {
+    color: #1c242a;
+    font: bold 24px/1.5 sans-serif;
+    background-image: linear-gradient(180deg, #3d6e45, #4e955b);
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-teach {
+    width: 150px;
+    margin-bottom: 40px;
+}
+

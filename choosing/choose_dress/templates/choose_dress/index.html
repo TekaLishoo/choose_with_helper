@@ -1,4 +1,24 @@
 {% extends "choose_dress/base.html" %}
+
 {% block content %}
-<img alt="dress" href="noexist.jpg">
+<main>
+    <section class="dress-city">
+        <button>Choose a dress</button>
+        <button>Choose a city</button>
+    </section>
+
+    <section class="main-image">
+        <img alt="dress" src='static/choose_dress/818e34877fc01763a227600ce398173e.gif' width="320" height="404">
+        <div class="buttons-like-not">
+            <button class="btn-not"><i class="fa-solid fa-xmark"></i></i></button>
+            <button class="btn-like"><i class="fa-solid fa-heart"></i></button>
+        </div>
+    </section>
+
+    <section class="algoritm">
+        <button class="btn-teach">Teach ML</button>
+        <button class="btn-teach">Teach ML with PCA</button>
+        <button class="btn-teach">Teach with TensorFlow</button>
+    </section>
+</main>
 {% endblock %}
