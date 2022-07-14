@@ -1,6 +1,7 @@
 body {
     height: 100%;
     background-color: #202a32;
+    background-image: url('background_028.jpg')
     display: flex;
     flex-direction: column;
     justify-content: space-between;
